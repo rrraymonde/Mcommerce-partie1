@@ -1,0 +1,162 @@
+{
+	"id": "4c050418-c3ef-4ed1-941e-9429e58797d4",
+	"name": "ExerciceMicroService",
+	"allTests": [],
+	"timestamp": "2019-09-27T14:50:40.683Z",
+	"collection_id": "fe3bb3da-2fa1-4256-bd30-6771ad907e3e",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "fe3bb3da-2fa1-4256-bd30-6771ad907e3e",
+		"name": "ExerciceMicroService",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"77338604-4eb0-49bf-a68e-1ac6336211a4",
+			"4d6ac370-7926-4b21-92a0-cc2a1e47f2c4",
+			"6b1505ab-39f7-4e5d-a467-ee8b81712853"
+		],
+		"folders_order": [],
+		"owner": "8950463",
+		"favorite": false,
+		"protocolProfileBehavior": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "http://localhost:9090/AdminProduits",
+			"id": "77338604-4eb0-49bf-a68e-1ac6336211a4",
+			"url": "http://localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"166"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "166",
+			"totalRequestTime": "166",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:9090/TriProduits",
+			"id": "4d6ac370-7926-4b21-92a0-cc2a1e47f2c4",
+			"url": "http://localhost:9090/TriProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"12"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "12",
+			"totalRequestTime": "12",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:9090/Produits",
+			"id": "6b1505ab-39f7-4e5d-a467-ee8b81712853",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 412,
+				"name": "Precondition Failed",
+				"detail": {
+					"name": "Precondition Failed",
+					"detail": "The server does not meet one of the preconditions that the requester put on the request."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"71"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "71",
+			"totalRequestTime": "71",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 249,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "http://localhost:9090/AdminProduits",
+			"id": "77338604-4eb0-49bf-a68e-1ac6336211a4",
+			"url": "http://localhost:9090/AdminProduits",
+			"time": "2019-09-27T14:50:40.683Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "http://localhost:9090/TriProduits",
+			"id": "4d6ac370-7926-4b21-92a0-cc2a1e47f2c4",
+			"url": "http://localhost:9090/TriProduits",
+			"time": "2019-09-27T14:50:40.683Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "http://localhost:9090/Produits",
+			"id": "6b1505ab-39f7-4e5d-a467-ee8b81712853",
+			"url": "http://localhost:9090/Produits",
+			"time": "2019-09-27T14:50:40.683Z",
+			"responseCode": {
+				"code": 412,
+				"name": "Precondition Failed",
+				"detail": {
+					"name": "Precondition Failed",
+					"detail": "The server does not meet one of the preconditions that the requester put on the request."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
