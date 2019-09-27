@@ -111,4 +111,10 @@ public class ProductController {
         produits.stream().forEach(product -> product.setMarge(product.getPrix() - product.getPrixAchat()));
         return produits;
     }
+
+    //Tri les produits par ordre alphabétique
+    @RequestMapping(value = "/TriProduits", method = RequestMethod.GET)
+    public List<Product> trierProduitsParOrdreAlphabetique () {
+        return productDao.findAllByOrderByNomAsc();
+    }
 }
